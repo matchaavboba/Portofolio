@@ -497,6 +497,7 @@ ul {
 .social-link {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
   padding: 0.75rem 1.5rem;
   background: var(--bg-card);
@@ -873,6 +874,8 @@ ul {
   justify-content: center;
   align-items: center;
   position: relative;
+  width: 100%;
+  max-width: 100%;
 }
 
 /* ── Phone Mockup ── */
@@ -1139,6 +1142,8 @@ ul {
 .contact-info-details {
   display: flex;
   flex-direction: column;
+  min-width: 0;
+  width: 100%;
 }
 
 .contact-info-label {
@@ -1154,6 +1159,7 @@ ul {
   color: var(--text-primary);
   text-decoration: none;
   transition: var(--transition-fast);
+  word-break: break-all;
 }
 
 a.contact-info-value:hover {
@@ -1259,6 +1265,12 @@ a.contact-info-value:hover {
     grid-template-columns: 1fr;
     padding: 2rem;
     gap: 2rem;
+  }
+
+  .uiux-detail-visual {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
   }
 }
 
