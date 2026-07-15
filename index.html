@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Syifa Nurul Alfiah — Software Engineer</title>
+  <meta name="description" content="Portfolio of Syifa Nurul Alfiah — Software Engineer & IT student at Institut Teknologi Sepuluh Nopember (ITS), passionate about Cloud Computing, Networking, and DevOps." />
+  <meta property="og:title" content="Syifa Nurul Alfiah — Software Engineer" />
+  <meta property="og:description" content="IT student at ITS passionate about Cloud Computing, Networking, and DevOps." />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' fill='%23a855f7'/></svg>" />
+</head>
+<body>
+
+  <!-- Particle Background -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- ══════════ NAVBAR ══════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">SA.</a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#uiux">UI/UX Design</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-hamburger" id="nav-hamburger" onclick="toggleMobileNav()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ══════════ HERO ══════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">Syifa Nurul Alfiah</h1>
+        <div class="hero-role">
+          <span class="role-dot"></span>
+          Software Engineer
+        </div>
+        <p class="hero-description">
+          An Information Technology student at Institut Teknologi Sepuluh Nopember (ITS) passionate about
+          <strong>Cloud Computing</strong>, <strong>Networking</strong>, and especially the world of <strong>DevOps</strong>.
+          Building reliable systems, one pipeline at a time.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            View Projects
+          </a>
+          <a href="https://www.linkedin.com/in/syifanalfiah" target="_blank" class="btn btn-outline">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-photo">
+        <div class="photo-wrapper">
+          <div class="photo-glow"></div>
+          <div class="photo-border"></div>
+          <div class="photo-image">
+            <img src="public/images.png" alt="Syifa Nurul Alfiah" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ ABOUT ══════════ -->
+  <section class="section" id="about">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Who I Am</h2>
+      </div>
+
+      <div class="about-content">
+        <div class="about-text reveal">
+          <p>
+            I am an <strong>Information Technology</strong> undergraduate student at
+            <strong>Institut Teknologi Sepuluh Nopember (ITS)</strong>, with a strong
+            interest in <strong>Cloud Computing</strong> and <strong>Networking</strong>,
+            especially in the <strong>DevOps</strong> domain.
+          </p>
+          <p>
+            With a foundation in software engineering from vocational high school and
+            over 3 years of experience in the IT field, I have honed my skills in
+            web development (HTML, CSS, JavaScript), version control (Git), and
+            UI/UX design (Figma). I continuously explore infrastructure automation,
+            containerization, and security operations.
+          </p>
+          <div class="about-links">
+            <a href="https://www.linkedin.com/in/syifanalfiah" target="_blank" class="social-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              LinkedIn
+            </a>
+            <a href="https://github.com/syifanalfiah/" target="_blank" class="social-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="info-cards reveal reveal-delay-2">
+          <div class="info-card">
+            <div class="info-card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+            </div>
+            <div class="info-card-title">Focus Area</div>
+            <div class="info-card-value">Cloud Computing & DevOps</div>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <div class="info-card-title">Skills</div>
+            <div class="info-card-value">Docker, Linux, Networking, CI/CD, UI/UX</div>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <div class="info-card-title">Web Technologies</div>
+            <div class="info-card-value">HTML, CSS, JavaScript, React, Node.js</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ EXPERIENCE ══════════ -->
+  <section class="section" id="experience">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-tag">Experience</span>
+        <h2 class="section-title">Work & Internships</h2>
+      </div>
+
+      <div class="education-timeline">
+        <!-- 1. Assistant Lecturer of Database System -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot active"></div>
+          <div class="timeline-card">
+            <span class="timeline-date">Feb 2026 — Present</span>
+            <h3 class="timeline-school">Assistant Lecturer of Database System</h3>
+            <p class="timeline-degree">Institut Teknologi Sepuluh Nopember (ITS)</p>
+            <ul class="timeline-desc">
+              <li>Developed and maintained SQL practicum modules and automated tests using GitHub.</li>
+              <li>Led lab demonstration exercises and guided students through SQL queries and database concepts.</li>
+              <li>Served as Person in Charge (PIC) for selected database modules.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 2. Ara - UI/UX Expert Staff -->
+        <div class="timeline-item reveal reveal-delay-1">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-date">Aug 2025 — Mar 2026</span>
+            <h3 class="timeline-school">UI/UX Expert Staff</h3>
+            <p class="timeline-degree">Ara (IT Development Division)</p>
+            <ul class="timeline-desc">
+              <li>Designed interactive UI/UX prototypes and interface states using Figma.</li>
+              <li>Monitored, guided, and reviewed layouts produced by junior UI/UX design staff.</li>
+              <li>Collaborated with frontend developers to ensure design system guidelines were implemented correctly.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 3. TDC Summit Fest 2025 - Public Relations Staff -->
+        <div class="timeline-item reveal reveal-delay-2">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-date">Jul 2025 — Nov 2026</span>
+            <h3 class="timeline-school">Public Relations Staff</h3>
+            <p class="timeline-degree">TDC Summit Fest 2025</p>
+            <ul class="timeline-desc">
+              <li>Managed promotion and publicity campaigns through social media and community platforms.</li>
+              <li>Established and maintained key partnerships for promotional material distribution.</li>
+              <li>Coordinated promotions and publicity events to reach a wider target audience.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 4. IEEE ITS Student Branch - Web Development Officer -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-date">May 2025 — Present</span>
+            <h3 class="timeline-school">Web Development Officer</h3>
+            <p class="timeline-degree">IEEE ITS Student Branch</p>
+            <ul class="timeline-desc">
+              <li>Developed responsive websites using Next.js (React) and Tailwind CSS.</li>
+              <li>Designed and mapped interactive UI/UX features for branch projects.</li>
+              <li>Collaborated with team members using Git and GitHub branching workflows to maintain source code quality.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 4. Programming Intern (Virose) -->
+        <div class="timeline-item reveal reveal-delay-3">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-date">Nov 2024 — May 2025</span>
+            <h3 class="timeline-school">Programming Intern</h3>
+            <p class="timeline-degree">Virose</p>
+            <ul class="timeline-desc">
+              <li>Developed custom backend utility modules and software solutions using C++.</li>
+              <li>Solved complex computational math challenges and optimized search logic using C and C++.</li>
+              <li>Built and tested an IoT temperature sensor and alarm warning circuit powered by C++.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 5. UI/UX Division Intern (ITS Website) -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-date">Oct 2024 — Dec 2024</span>
+            <h3 class="timeline-school">UI/UX Division Intern</h3>
+            <p class="timeline-degree">ITS Website Division</p>
+            <ul class="timeline-desc">
+              <li>Redesigned mockups and flows for the official ITS Photo portal inside Figma.</li>
+              <li>Built and configured a WordPress site aligning with redesigned layouts.</li>
+              <li>Created interactive web templates for the ITS Website "Kampus Merdeka Page".</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 6. Ara - UI/UX Staff -->
+        <div class="timeline-item reveal reveal-delay-1">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-date">Sep 2024 — Oct 2024</span>
+            <h3 class="timeline-school">UI/UX Staff</h3>
+            <p class="timeline-degree">Ara (IT Development Division)</p>
+            <ul class="timeline-desc">
+              <li>Created comprehensive UI/UX layout designs in Figma.</li>
+              <li>Built structural interface wireframes and interactive component states.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 7. Front-end Developer Intern -->
+        <div class="timeline-item reveal reveal-delay-2">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-date">Jul 2023 — Dec 2023</span>
+            <h3 class="timeline-school">Front-end Developer Intern</h3>
+            <p class="timeline-degree">National University in Jakarta</p>
+            <ul class="timeline-desc">
+              <li>Engineered the initial component framework and codebase for an academic system website.</li>
+              <li>Coordinated with designers to implement responsive page layouts with clean semantic code.</li>
+              <li>Coded, customized, and unit-tested interactive forms and user dashboard widgets.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ EDUCATION ══════════ -->
+  <section class="section" id="education">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-tag">Education</span>
+        <h2 class="section-title">Academic Journey</h2>
+      </div>
+
+      <div class="education-timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot active"></div>
+          <div class="timeline-card">
+            <span class="timeline-date">2024 — Present</span>
+            <h3 class="timeline-school">Institut Teknologi Sepuluh Nopember (ITS)</h3>
+            <p class="timeline-degree">Bachelor of Information Technology</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal reveal-delay-2">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-date">2021 — 2024</span>
+            <h3 class="timeline-school">SMKN 2 Jakarta</h3>
+            <p class="timeline-degree">Software Engineering</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ PROJECTS ══════════ -->
+  <section class="section" id="projects">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-tag">Projects</span>
+        <h2 class="section-title">Featured Work</h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- 1. Final Project Bigdata Kelompok 8 -->
+        <div class="project-card reveal">
+          <div class="project-image">
+            <img src="public/projects/bigdata.png" alt="Big Data Analytics Dashboard" />
+            <div class="project-image-overlay"></div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Big Data Analytics — USD/IDR vs Food Prices</h3>
+            <p class="project-description">
+              A real-time big data pipeline predicting the price of 11 strategic food commodities 7, 14, and 30 days ahead. Features Kafka streaming, HDFS storage, Spark GBTRegressor modeling, and a Flask dashboard with automated LLM recommendations.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Kafka</span>
+              <span class="tech-tag">Spark MLlib</span>
+              <span class="tech-tag">HDFS</span>
+              <span class="tech-tag">Flask</span>
+              <span class="tech-tag">Claude / Gemini</span>
+              <span class="tech-tag">Docker</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/nisrizzna/Final-Project-Bigdata-Kelompok-8" target="_blank" class="project-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. FP-SOC-K3 -->
+        <div class="project-card reveal reveal-delay-1">
+          <div class="project-image">
+            <img src="public/projects/soc.png" alt="Wazuh SOC Active Response" />
+            <div class="project-image-overlay"></div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Wazuh SIEM, SOAR & AI False-Alarm Classifier</h3>
+            <p class="project-description">
+              A Security Operations Center (SOC) system deployed on Azure VMs. Features custom Wazuh SIEM rule detection for multi-vector DDoS and malware. Integrates a Random Forest Machine Learning AI Filter to reduce false positive alarms by 32.2% alongside automated active response blocking.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Wazuh SIEM</span>
+              <span class="tech-tag">SOAR</span>
+              <span class="tech-tag">Azure</span>
+              <span class="tech-tag">Random Forest</span>
+              <span class="tech-tag">ClamAV</span>
+              <span class="tech-tag">Python</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/revaerica/FP-SOC-K3" target="_blank" class="project-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. FP-TKA-Kelompok-4 -->
+        <div class="project-card reveal reveal-delay-2">
+          <div class="project-image">
+            <img src="public/projects/tka.png" alt="Cloud Architecture VPC Diagram" />
+            <div class="project-image-overlay"></div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Cloud Architecture & Load-Balanced Web Deployment</h3>
+            <p class="project-description">
+              Provisioned high-performance web cluster architecture on Google Cloud Platform. Features Nginx reverse proxy load-balancer, daemonized Gunicorn WSGI processes, firewall network segmentation, and performance-tuned MongoDB storage replica sets optimized for high concurrent locust traffic workloads.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">GCP Compute Engine</span>
+              <span class="tech-tag">Nginx</span>
+              <span class="tech-tag">Gunicorn</span>
+              <span class="tech-tag">MongoDB</span>
+              <span class="tech-tag">Locust</span>
+              <span class="tech-tag">Flask</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/joselinputri/fp-tka-kelompok-4" target="_blank" class="project-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Waterflow Dashboard -->
+        <div class="project-card reveal reveal-delay-2">
+          <div class="project-image">
+            <img src="public/projects/waterflow.png" alt="Waterflow Monitoring Dashboard" />
+            <div class="project-image-overlay"></div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Waterflow Monitoring Dashboard</h3>
+            <p class="project-description">
+              A web-based IoT dashboard for monitoring water flow sensor data in real-time. Built with pure HTML, CSS, and JavaScript, featuring live data visualization, flow rate gauges, and water level indicators.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">IoT</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/syifanalfiah/Waterflow-dashboard" target="_blank" class="project-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                GitHub
+              </a>
+              <a href="https://waterflow-dashboard.vercel.app/" target="_blank" class="project-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+                Deployment
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. SkyWeather -->
+        <div class="project-card reveal">
+          <div class="project-image" style="flex-direction: column; gap: 0.5rem; display: flex; height: auto;">
+            <img id="skyweather-main-img" src="public/projects/skyweather.png" alt="SkyWeather Dashboard Screen" style="height: 200px; object-fit: cover;" />
+            <div class="carousel-wrapper" style="margin-top: 0; width: 100%;">
+              <div class="carousel-container" style="max-width: 100%; gap: 0.5rem;">
+                <button type="button" class="carousel-btn btn-left" style="width: 24px; height: 24px;" onclick="slideCarousel('skyweather-track', -1)">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+                </button>
+                <div class="carousel-track" id="skyweather-track">
+                  <div class="carousel-slide active" style="flex: 0 0 40px; height: 40px;" onclick="updateMainImg('skyweather-main-img', 'public/projects/skyweather.png', this)">
+                    <img src="public/projects/skyweather.png" alt="SkyWeather Screen 1" />
+                  </div>
+                  <div class="carousel-slide" style="flex: 0 0 40px; height: 40px;" onclick="updateMainImg('skyweather-main-img', 'public/projects/skyweather2.png', this)">
+                    <img src="public/projects/skyweather2.png" alt="SkyWeather Screen 2" />
+                  </div>
+                  <div class="carousel-slide" style="flex: 0 0 40px; height: 40px;" onclick="updateMainImg('skyweather-main-img', 'public/projects/skyweather3.png', this)">
+                    <img src="public/projects/skyweather3.png" alt="SkyWeather Screen 3" />
+                  </div>
+                  <div class="carousel-slide" style="flex: 0 0 40px; height: 40px;" onclick="updateMainImg('skyweather-main-img', 'public/projects/skyweather4.png', this)">
+                    <img src="public/projects/skyweather4.png" alt="SkyWeather Screen 4" />
+                  </div>
+                </div>
+                <button type="button" class="carousel-btn btn-right" style="width: 24px; height: 24px;" onclick="slideCarousel('skyweather-track', 1)">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">SkyWeather — Real-Time Weather Monitoring</h3>
+            <p class="project-description">
+              A real-time weather monitoring system leveraging WebSocket protocol for instantaneous telemetry updates. Displays temperature, humidity, and barometric pressure data with instant live-feed charts.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">WebSocket</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">Express.js</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/matchaavboba/websocket-project/" target="_blank" class="project-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                GitHub
+              </a>
+              <a href="https://skyweather.up.railway.app/" target="_blank" class="project-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+                Deployment
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. Bank MQTT -->
+        <div class="project-card reveal">
+          <div class="project-image" style="flex-direction: column; gap: 0.5rem; display: flex; height: auto;">
+            <img id="bank-mqtt-main-img" src="public/projects/bank-mqtt.png" alt="Bank MQTT Dashboard Screen" style="height: 200px; object-fit: cover;" />
+            <div class="carousel-wrapper" style="margin-top: 0; width: 100%;">
+              <div class="carousel-container" style="max-width: 100%; gap: 0.5rem;">
+                <button type="button" class="carousel-btn btn-left" style="width: 24px; height: 24px;" onclick="slideCarousel('bank-mqtt-track', -1)">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+                </button>
+                <div class="carousel-track" id="bank-mqtt-track">
+                  <div class="carousel-slide active" style="flex: 0 0 40px; height: 40px;" onclick="updateMainImg('bank-mqtt-main-img', 'public/projects/bank-mqtt.png', this)">
+                    <img src="public/projects/bank-mqtt.png" alt="Bank MQTT Screen 1" />
+                  </div>
+                  <div class="carousel-slide" style="flex: 0 0 40px; height: 40px;" onclick="updateMainImg('bank-mqtt-main-img', 'public/projects/bank-mqtt2.png', this)">
+                    <img src="public/projects/bank-mqtt2.png" alt="Bank MQTT Screen 2" />
+                  </div>
+                </div>
+                <button type="button" class="carousel-btn btn-right" style="width: 24px; height: 24px;" onclick="slideCarousel('bank-mqtt-track', 1)">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Bank MQTT — Async Transaction Sim</h3>
+            <p class="project-description">
+              An asynchronous pub/sub messaging system simulating banking transactions. Deployed on containerized nodes leveraging MQTT protocol broker connection pipelines for robust message queuing.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">MQTT</span>
+              <span class="tech-tag">Mosquitto</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">Docker</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/matchaavboba/bank-mqtt" target="_blank" class="project-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                GitHub
+              </a>
+              <a href="https://bank-mqtt-production.up.railway.app/" target="_blank" class="project-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+                Deployment
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7. WordIT -->
+        <div class="project-card reveal">
+          <div class="project-body">
+            <h3 class="project-title">WordIT — Educational Word Game</h3>
+            <p class="project-description">
+              Backend for an educational web-based word game where users can play, learn, and have fun simultaneously. Built with Bun runtime, TypeScript, PostgreSQL with Prisma ORM, and JWT authentication.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">TypeScript</span>
+              <span class="tech-tag">Bun</span>
+              <span class="tech-tag">PostgreSQL</span>
+              <span class="tech-tag">Prisma</span>
+              <span class="tech-tag">Docker</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/syifanalfiah/FP-PemrogramanWebsite-BE-2025" target="_blank" class="project-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8. Smart Activity -->
+        <div class="project-card reveal reveal-delay-1">
+          <div class="project-image" style="flex-direction: column; gap: 0.5rem; display: flex; height: auto;">
+            <img id="smart-main-img" src="public/projects/smart.png" alt="Smart Activity Student Dashboard" style="height: 200px; object-fit: cover;" />
+            <div class="carousel-wrapper" style="margin-top: 0; width: 100%;">
+              <div class="carousel-container" style="max-width: 100%; gap: 0.5rem;">
+                <button type="button" class="carousel-btn btn-left" style="width: 24px; height: 24px;" onclick="slideCarousel('smart-track', -1)">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+                </button>
+                <div class="carousel-track" id="smart-track">
+                  <div class="carousel-slide active" style="flex: 0 0 40px; height: 40px;" onclick="updateMainImg('smart-main-img', 'public/projects/smart.png', this)">
+                    <img src="public/projects/smart.png" alt="Smart Activity Screen 1" />
+                  </div>
+                  <div class="carousel-slide" style="flex: 0 0 40px; height: 40px;" onclick="updateMainImg('smart-main-img', 'public/projects/smart2.png', this)">
+                    <img src="public/projects/smart2.png" alt="Smart Activity Screen 2" />
+                  </div>
+                  <div class="carousel-slide" style="flex: 0 0 40px; height: 40px;" onclick="updateMainImg('smart-main-img', 'public/projects/smart3.png', this)">
+                    <img src="public/projects/smart3.png" alt="Smart Activity Screen 3" />
+                  </div>
+                  <div class="carousel-slide" style="flex: 0 0 40px; height: 40px;" onclick="updateMainImg('smart-main-img', 'public/projects/smart4.png', this)">
+                    <img src="public/projects/smart4.png" alt="Smart Activity Screen 4" />
+                  </div>
+                  <div class="carousel-slide" style="flex: 0 0 40px; height: 40px;" onclick="updateMainImg('smart-main-img', 'public/projects/smart5.png', this)">
+                    <img src="public/projects/smart5.png" alt="Smart Activity Screen 5" />
+                  </div>
+                </div>
+                <button type="button" class="carousel-btn btn-right" style="width: 24px; height: 24px;" onclick="slideCarousel('smart-track', 1)">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Smart Activity — Student Activity Analyzer</h3>
+            <p class="project-description">
+              A React web app helping students manage and analyze daily activities. Features smart overlap detection for conflicting schedules, burnout prevention warnings (5+ hours non-stop), and interactive activity visualization.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">MongoDB</span>
+              <span class="tech-tag">Tailwind CSS</span>
+              <span class="tech-tag">Express.js</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/syifanalfiah/smart" target="_blank" class="project-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 9. Raspberry Pi -->
+        <div class="project-card reveal reveal-delay-2">
+          <div class="project-image">
+            <img src="public/projects/raspberry.png" alt="Raspberry Pi Distance Sensor Setup" />
+            <div class="project-image-overlay"></div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Raspberry Pi — Distance Sensor Project</h3>
+            <p class="project-description">
+              An IoT project using Raspberry Pi 3 with HC-SR04 ultrasonic sensor to measure distances. Involves GPIO pin configuration, Python scripting for real-time distance measurement, and hardware wiring with voltage dividers.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Raspberry Pi</span>
+              <span class="tech-tag">GPIO</span>
+              <span class="tech-tag">HC-SR04</span>
+              <span class="tech-tag">IoT</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/syifanalfiah/Raspberry-pi-Project" target="_blank" class="project-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 10. Jarkom -->
+        <div class="project-card reveal">
+          <div class="project-image">
+            <img src="public/projects/jarkom.png" alt="Computer Networking Lab Network Topology" />
+            <div class="project-image-overlay"></div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Computer Networking Lab — GNS3</h3>
+            <p class="project-description">
+              A comprehensive networking lab covering static IP configuration, NAT routing, FTP server setup, Wireshark packet analysis, and Telnet services. Built using GNS3 simulation with multiple routers and client nodes.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Shell</span>
+              <span class="tech-tag">GNS3</span>
+              <span class="tech-tag">Networking</span>
+              <span class="tech-tag">Wireshark</span>
+              <span class="tech-tag">iptables</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/syifanalfiah/Jarkom-Modul-1-2025-K25" target="_blank" class="project-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ UI/UX DESIGN: WITCH ══════════ -->
+  <section class="section" id="uiux">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-tag">UI/UX Design</span>
+        <h2 class="section-title">WITCH Mobile App Design</h2>
+      </div>
+      <div class="uiux-detail-row reveal">
+        <div class="uiux-detail-text">
+          <p>
+            A mystical-themed mobile application design focusing on community building and interest-based connections.
+            Features interest-onboarding pages, custom content feeds, profile customization, and dark purple neon thematic user experiences.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Figma</span>
+            <span class="tech-tag">Mobile UI/UX</span>
+            <span class="tech-tag">Prototyping</span>
+            <span class="tech-tag">Wireframing</span>
+          </div>
+        </div>
+        <div class="uiux-detail-visual mobile-visual" style="flex-direction: column; gap: 1.5rem;">
+          <div class="phone-mockup">
+            <div class="phone-notch"></div>
+            <img id="witch-main-img" src="public/projects/extracted_p5_i7.jpeg" alt="WITCH Mobile Interface Screen" />
+          </div>
+          <div class="carousel-wrapper">
+            <div class="carousel-container">
+              <button class="carousel-btn btn-left" onclick="slideCarousel('witch-track', -1)">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+              </button>
+              <div class="carousel-track" id="witch-track">
+                <div class="carousel-slide active" onclick="updateMainImg('witch-main-img', 'public/projects/extracted_p5_i7.jpeg', this)">
+                  <img src="public/projects/extracted_p5_i7.jpeg" alt="WITCH Screen 1" />
+                </div>
+                <div class="carousel-slide" onclick="updateMainImg('witch-main-img', 'public/projects/extracted_p5_i1.jpeg', this)">
+                  <img src="public/projects/extracted_p5_i1.jpeg" alt="WITCH Screen 2" />
+                </div>
+                <div class="carousel-slide" onclick="updateMainImg('witch-main-img', 'public/projects/extracted_p5_i2.jpeg', this)">
+                  <img src="public/projects/extracted_p5_i2.jpeg" alt="WITCH Screen 3" />
+                </div>
+                <div class="carousel-slide" onclick="updateMainImg('witch-main-img', 'public/projects/extracted_p5_i3.jpeg', this)">
+                  <img src="public/projects/extracted_p5_i3.jpeg" alt="WITCH Screen 4" />
+                </div>
+                <div class="carousel-slide" onclick="updateMainImg('witch-main-img', 'public/projects/extracted_p5_i4.jpeg', this)">
+                  <img src="public/projects/extracted_p5_i4.jpeg" alt="WITCH Screen 5" />
+                </div>
+                <div class="carousel-slide" onclick="updateMainImg('witch-main-img', 'public/projects/extracted_p5_i5.jpeg', this)">
+                  <img src="public/projects/extracted_p5_i5.jpeg" alt="WITCH Screen 6" />
+                </div>
+                <div class="carousel-slide" onclick="updateMainImg('witch-main-img', 'public/projects/extracted_p5_i6.jpeg', this)">
+                  <img src="public/projects/extracted_p5_i6.jpeg" alt="WITCH Screen 7" />
+                </div>
+                <div class="carousel-slide" onclick="updateMainImg('witch-main-img', 'public/projects/extracted_p5_i8.jpeg', this)">
+                  <img src="public/projects/extracted_p5_i8.jpeg" alt="WITCH Screen 8" />
+                </div>
+                <div class="carousel-slide" onclick="updateMainImg('witch-main-img', 'public/projects/extracted_p5_i9.jpeg', this)">
+                  <img src="public/projects/extracted_p5_i9.jpeg" alt="WITCH Screen 9" />
+                </div>
+              </div>
+              <button class="carousel-btn btn-right" onclick="slideCarousel('witch-track', 1)">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ UI/UX DESIGN: ITS WEBSITE ══════════ -->
+  <section class="section" id="uiux-its">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-tag">UI/UX Design</span>
+        <h2 class="section-title">ITS Official Website Redesign</h2>
+      </div>
+      <div class="uiux-detail-row reveal">
+        <div class="uiux-detail-text">
+          <p>
+            A web layout concept reimagining the homepage portals and academic statistics screens for the Institut Teknologi Sepuluh Nopember (ITS).
+            Features slider hero sections, campus statistic graphs, news sections, and structured info footers matching standard campus branding rules.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Figma</span>
+            <span class="tech-tag">Web Design</span>
+            <span class="tech-tag">Information Architecture</span>
+          </div>
+        </div>
+        <div class="uiux-detail-visual web-visual" style="flex-direction: column; gap: 1.5rem;">
+          <div class="browser-mockup">
+            <div class="browser-bar">
+              <span class="browser-dot dot-red"></span>
+              <span class="browser-dot dot-yellow"></span>
+              <span class="browser-dot dot-green"></span>
+            </div>
+            <img id="its-main-img" src="public/projects/extracted_p6_i5.jpeg" alt="ITS Website Redesign Layout" />
+          </div>
+          <div class="carousel-wrapper">
+            <div class="carousel-container">
+              <button class="carousel-btn btn-left" onclick="slideCarousel('its-track', -1)">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+              </button>
+              <div class="carousel-track" id="its-track">
+                <div class="carousel-slide active" onclick="updateMainImg('its-main-img', 'public/projects/extracted_p6_i5.jpeg', this)">
+                  <img src="public/projects/extracted_p6_i5.jpeg" alt="ITS Page 1" />
+                </div>
+                <div class="carousel-slide" onclick="updateMainImg('its-main-img', 'public/projects/extracted_p6_i1.jpeg', this)">
+                  <img src="public/projects/extracted_p6_i1.jpeg" alt="ITS Page 2" />
+                </div>
+                <div class="carousel-slide" onclick="updateMainImg('its-main-img', 'public/projects/extracted_p6_i2.jpeg', this)">
+                  <img src="public/projects/extracted_p6_i2.jpeg" alt="ITS Page 3" />
+                </div>
+                <div class="carousel-slide" onclick="updateMainImg('its-main-img', 'public/projects/extracted_p6_i3.jpeg', this)">
+                  <img src="public/projects/extracted_p6_i3.jpeg" alt="ITS Page 4" />
+                </div>
+                <div class="carousel-slide" onclick="updateMainImg('its-main-img', 'public/projects/extracted_p6_i4.jpeg', this)">
+                  <img src="public/projects/extracted_p6_i4.jpeg" alt="ITS Page 5" />
+                </div>
+              </div>
+              <button class="carousel-btn btn-right" onclick="slideCarousel('its-track', 1)">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ UI/UX DESIGN: ARA 6.0 ══════════ -->
+  <section class="section" id="uiux-ara6">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-tag">UI/UX Design</span>
+        <h2 class="section-title">ARA 6.0 Event Platform</h2>
+      </div>
+      <div class="uiux-detail-row reveal">
+        <div class="uiux-detail-text">
+          <p>
+            Web portal design for ARA 6.0, the annual IT and cybersecurity competition event by HMIT ITS. Formulates a sci-fi "Welcome Agents" visual landing page theme, competition track detail slides, dashboard registration fields, and responsive layout models.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Figma</span>
+            <span class="tech-tag">Responsive Design</span>
+            <span class="tech-tag">Dashboard Layouts</span>
+          </div>
+        </div>
+        <div class="uiux-detail-visual web-visual" style="flex-direction: column; gap: 1.5rem;">
+          <div class="browser-mockup">
+            <div class="browser-bar">
+              <span class="browser-dot dot-red"></span>
+              <span class="browser-dot dot-yellow"></span>
+              <span class="browser-dot dot-green"></span>
+            </div>
+            <img id="ara6-main-img" src="public/projects/extracted_p7_i1.jpeg" alt="ARA 6.0 Event Mockup" />
+          </div>
+          <div class="carousel-wrapper">
+            <div class="carousel-container">
+              <button class="carousel-btn btn-left" onclick="slideCarousel('ara6-track', -1)">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+              </button>
+              <div class="carousel-track" id="ara6-track">
+                <div class="carousel-slide active" onclick="updateMainImg('ara6-main-img', 'public/projects/extracted_p7_i1.jpeg', this)">
+                  <img src="public/projects/extracted_p7_i1.jpeg" alt="ARA 6 Screen 1" />
+                </div>
+                <div class="carousel-slide" onclick="updateMainImg('ara6-main-img', 'public/projects/extracted_p7_i3.jpeg', this)">
+                  <img src="public/projects/extracted_p7_i3.jpeg" alt="ARA 6 Screen 2" />
+                </div>
+                <div class="carousel-slide" onclick="updateMainImg('ara6-main-img', 'public/projects/extracted_p7_i6.jpeg', this)">
+                  <img src="public/projects/extracted_p7_i6.jpeg" alt="ARA 6 Screen 3" />
+                </div>
+                <div class="carousel-slide" onclick="updateMainImg('ara6-main-img', 'public/projects/extracted_p7_i7.jpeg', this)">
+                  <img src="public/projects/extracted_p7_i7.jpeg" alt="ARA 6 Screen 4" />
+                </div>
+                <div class="carousel-slide" onclick="updateMainImg('ara6-main-img', 'public/projects/extracted_p7_i9.jpeg', this)">
+                  <img src="public/projects/extracted_p7_i9.jpeg" alt="ARA 6 Screen 5" />
+                </div>
+                <div class="carousel-slide" onclick="updateMainImg('ara6-main-img', 'public/projects/extracted_p7_i2.jpeg', this)">
+                  <img src="public/projects/extracted_p7_i2.jpeg" alt="ARA 6 Screen 6" />
+                </div>
+                <div class="carousel-slide" onclick="updateMainImg('ara6-main-img', 'public/projects/extracted_p7_i4.jpeg', this)">
+                  <img src="public/projects/extracted_p7_i4.jpeg" alt="ARA 6 Screen 7" />
+                </div>
+                <div class="carousel-slide" onclick="updateMainImg('ara6-main-img', 'public/projects/extracted_p7_i5.jpeg', this)">
+                  <img src="public/projects/extracted_p7_i5.jpeg" alt="ARA 6 Screen 8" />
+                </div>
+              </div>
+              <button class="carousel-btn btn-right" onclick="slideCarousel('ara6-track', 1)">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ UI/UX DESIGN: ARA 7.0 ══════════ -->
+  <section class="section" id="uiux-ara7">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-tag">UI/UX Design</span>
+        <h2 class="section-title">ARA 7.0 Gamified Platform</h2>
+      </div>
+      <div class="uiux-detail-row reveal">
+        <div class="uiux-detail-text">
+          <p>
+            An arcade-themed registration and tracking dashboard for the ARA 7.0 event. Emphasizes gamified navigation components, retro arcade console interfaces, data science track layout portals, and countdown timers.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Figma</span>
+            <span class="tech-tag">Gamified UI</span>
+            <span class="tech-tag">Retro Aesthetic</span>
+          </div>
+        </div>
+        <div class="uiux-detail-visual web-visual" style="flex-direction: column; gap: 1.5rem;">
+          <div class="browser-mockup">
+            <div class="browser-bar">
+              <span class="browser-dot dot-red"></span>
+              <span class="browser-dot dot-yellow"></span>
+              <span class="browser-dot dot-green"></span>
+            </div>
+            <img id="ara7-main-img" src="public/projects/extracted_p8_i1.jpeg" alt="ARA 7.0 Retro Arcade Design" />
+          </div>
+          <div class="carousel-wrapper">
+            <div class="carousel-container">
+              <button class="carousel-btn btn-left" onclick="slideCarousel('ara7-track', -1)">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+              </button>
+              <div class="carousel-track" id="ara7-track">
+                <div class="carousel-slide active" onclick="updateMainImg('ara7-main-img', 'public/projects/extracted_p8_i1.jpeg', this)">
+                  <img src="public/projects/extracted_p8_i1.jpeg" alt="ARA 7 Screen 1" />
+                </div>
+                <div class="carousel-slide" onclick="updateMainImg('ara7-main-img', 'public/projects/extracted_p8_i2.jpeg', this)">
+                  <img src="public/projects/extracted_p8_i2.jpeg" alt="ARA 7 Screen 2" />
+                </div>
+                <div class="carousel-slide" onclick="updateMainImg('ara7-main-img', 'public/projects/extracted_p8_i3.jpeg', this)">
+                  <img src="public/projects/extracted_p8_i3.jpeg" alt="ARA 7 Screen 3" />
+                </div>
+                <div class="carousel-slide" onclick="updateMainImg('ara7-main-img', 'public/projects/extracted_p8_i4.jpeg', this)">
+                  <img src="public/projects/extracted_p8_i4.jpeg" alt="ARA 7 Screen 4" />
+                </div>
+              </div>
+              <button class="carousel-btn btn-right" onclick="slideCarousel('ara7-track', 1)">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ CONTACT & CV ══════════ -->
+  <section class="section" id="contact">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-tag">Contact & CV</span>
+        <h2 class="section-title">Get In Touch</h2>
+      </div>
+      <div class="contact-grid reveal">
+        <!-- Contact Information -->
+        <div class="contact-card">
+          <div>
+            <h3 class="timeline-school" style="margin-bottom: 0.5rem; font-size: 1.25rem;">Contact Info</h3>
+            <p style="color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 1.5rem;">
+              Feel free to reach out for collaborations, job opportunities, or database questions!
+            </p>
+            <div class="contact-info-list">
+              <!-- Email -->
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <div class="contact-info-details">
+                  <span class="contact-info-label">Email</span>
+                  <a href="mailto:Syifakenari12@gmail.com" class="contact-info-value">Syifakenari12@gmail.com</a>
+                </div>
+              </div>
+              <!-- Phone -->
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </div>
+                <div class="contact-info-details">
+                  <span class="contact-info-label">WhatsApp</span>
+                  <a href="https://wa.me/628881410575" target="_blank" class="contact-info-value">+62 888 1410 575</a>
+                </div>
+              </div>
+              <!-- LinkedIn -->
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                </div>
+                <div class="contact-info-details">
+                  <span class="contact-info-label">LinkedIn</span>
+                  <a href="https://www.linkedin.com/in/syifanalfiah" target="_blank" class="contact-info-value">linkedin.com/in/syifanalfiah</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Resume / CV Download -->
+        <div class="contact-card">
+          <div class="cv-card-body">
+            <div class="cv-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+            </div>
+            <h3 class="cv-card-title">Curriculum Vitae</h3>
+            <p class="cv-card-text">
+              View and download my detailed CV to learn more about my background, technical skill sets, and experience records.
+            </p>
+            <a href="CV_Syifa Nurul Alfiah.pdf" target="_blank" class="btn btn-outline" style="margin-top: 1rem; text-decoration: none;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 0.5rem;"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download CV
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ FOOTER ══════════ -->
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/syifanalfiah" target="_blank" class="social-link">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        LinkedIn
+      </a>
+      <a href="https://github.com/syifanalfiah/" target="_blank" class="social-link">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+        GitHub
+      </a>
+    <p class="footer-text">
+      © 2026 <span>Syifa Nurul Alfiah</span>. Built with passion & purpose.
+    </p>
+  </footer>
+
+  <!-- ══════════ LIGHTBOX MODAL ══════════ -->
+  <div id="lightbox-modal" class="lightbox-modal">
+    <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+    <button class="lightbox-arrow lightbox-arrow-left" onclick="navigateLightbox(-1); event.stopPropagation();">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <div class="lightbox-image-container" onclick="closeLightbox()">
+      <img class="lightbox-content" id="lightbox-img" alt="Enlarged Screenshot" onclick="event.stopPropagation();" />
+      <div id="lightbox-caption" class="lightbox-caption"></div>
+    </div>
+    <button class="lightbox-arrow lightbox-arrow-right" onclick="navigateLightbox(1); event.stopPropagation();">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+    </button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
