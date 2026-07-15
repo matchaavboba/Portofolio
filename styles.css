@@ -876,6 +876,11 @@ ul {
   position: relative;
   width: 100%;
   max-width: 100%;
+  min-width: 0;
+}
+
+.uiux-detail-text {
+  min-width: 0;
 }
 
 /* ── Phone Mockup ── */
@@ -1269,11 +1274,27 @@ a.contact-info-value:hover {
     grid-template-columns: 1fr;
     padding: 2rem;
     gap: 2rem;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .uiux-detail-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-width: 0;
+  }
+
+  .uiux-detail-text .project-tech {
+    justify-content: center;
   }
 
   .uiux-detail-visual {
     width: 100%;
     max-width: 100%;
+    min-width: 0;
     margin: 0 auto;
   }
 }
