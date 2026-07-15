@@ -8,20 +8,14 @@
 /* ── CSS Custom Properties ── */
 :root {
   --bg-primary: #0a0a0f;
-  --bg-secondary: #12121a;
   --bg-card: rgba(20, 20, 35, 0.6);
-  --bg-card-hover: rgba(30, 30, 50, 0.8);
 
-  --purple-50: #faf5ff;
-  --purple-100: #f3e8ff;
-  --purple-200: #e9d5ff;
   --purple-300: #d8b4fe;
   --purple-400: #c084fc;
   --purple-500: #a855f7;
   --purple-600: #9333ea;
   --purple-700: #7c3aed;
   --purple-800: #6d28d9;
-  --purple-900: #581c87;
 
   --text-primary: #f1f0f5;
   --text-secondary: #a8a3b5;
@@ -30,15 +24,10 @@
   --neon-glow: 0 0 10px rgba(168, 85, 247, 0.5),
                0 0 20px rgba(168, 85, 247, 0.3),
                0 0 40px rgba(168, 85, 247, 0.15);
-  --neon-glow-strong: 0 0 10px rgba(168, 85, 247, 0.7),
-                      0 0 30px rgba(168, 85, 247, 0.5),
-                      0 0 60px rgba(168, 85, 247, 0.3),
-                      0 0 100px rgba(168, 85, 247, 0.15);
   --card-glow: 0 0 15px rgba(124, 58, 237, 0.15),
                0 0 30px rgba(124, 58, 237, 0.05);
 
   --border-radius: 16px;
-  --border-radius-sm: 8px;
   --border-radius-lg: 24px;
 
   --transition-fast: 0.2s ease;
